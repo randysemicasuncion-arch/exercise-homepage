@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>A-Tech Sync</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('file:///C:/Users/XHU730/Desktop/excersize%201/images/BG1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Calibri, Helvitica;
+      color: white;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 100px;
+      background-color: rgba(0,0,0.0,0.85);
+    }
+
+    .branding {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .logo {
+      height: 60px;
+      width: 300px;
+    }
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 10px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00BFFF;
+}
+
+.nav-message {
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  max-width: 800px;
+}
+
+    nav a:hover {
+      color: #00BFFF;
+    }
+
+    .search-container {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      border-radius: 25px;
+      overflow: hidden;
+      height: 40px;
+    }
+
+    .search-container input[type="text"] {
+      border: none;
+      padding: 10px 15px;
+      font-size: 16px;
+      outline: none;
+      width: 250px;
+      border-radius: 25px 0 0 25px;
+    }
+
+    .search-container button {
+      background-color: transparent;
+      border: none;
+      padding: 0 15px;
+      font-size: 18px;
+      cursor: pointer;
+      color: #333;
+    }
+
+    .welcome-message p {
+      font-size: 1em;
+      font-style: italic;
+      margin: 0;
+    }
+
+    .main-section {
+      text-align: center;
+      padding: 0.5em;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto%;
+      border-radius: 0px;
+      margin-top: 0.5em;
+    }
+
+    footer {
+      background-color: rgba(0,0,0,0.8);
+      color: white;
+      text-align: center;
+      padding: 0.5em;
+    }
+
+    @media (max-width: 768px) {
+      .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+
+      nav {
+        justify-content: center;
+        gap: 15px;
+        margin-top: 10px;
+      }
+
+      .search-container {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="branding">
+      <img src="file:///C:/Users/XHU730/Desktop/excersize%201/images/profile%20logo.png" class="logo" alt="A-Tech Sync Logo">
+    </div>
+
+    <nav>
+  <div class="nav-links">
+    <a href="Home.html">Home</a>
+    <a href="Featured Gadgets.html">Featured Gadgets</a>
+    <a href="Contacts.html">Contacts</a>
+    <a href="About.html">About Us</a>
+  </div>
+  <div class="nav-message">
+    Welcome to A-Tech Sync: Your gadget playground. Phones, tech, and fun synced to your lifestyle!
+  </div>
+</nav>
+
+    <form class="search-container" action="Featured Gadgets.html" method="GET">
+      <input type="text" name="search" placeholder="Search..." required>
+      <button type="submit">⌕</button>
+    </form>
+  </div>
+
+  <div class="main-section">
+    <img src="file:///C:/Users/XHU730/Desktop/excersize%201/images/promo%201.png">
+  </div>
+
+  <footer>
+    <p>&copy; 2025 A-Tech Sync. Smart gadgets. Smarter living. All rights reserved. | Designed for BSOA 2-2 GROUP 1</p>
+  </footer>
+
+</body>
+</html>

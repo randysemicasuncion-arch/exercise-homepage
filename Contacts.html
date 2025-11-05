@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacts</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('file:///C:/Users/XHU730/Desktop/excersize%201/images/BG1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      padding: 2em;
+      position: relative;
+      z-index: 2;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+      margin-right: 1in;
+    }
+
+    nav a:last-child {
+      margin-right: 0;
+    }
+
+    nav a:hover {
+      color: #00ffff;
+    }
+
+    .contact-details {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 5em auto;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 2em;
+      border-radius: 10px;
+    }
+
+    .contact-details h2 {
+      text-align: center;
+      margin-bottom: 1em;
+      font-size: 2em;
+    }
+
+    .contact-details ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .contact-details li {
+      margin-bottom: 1em;
+      font-size: 1.1em;
+    }
+
+    .contact-details i {
+      margin-right: 0.5em;
+      color: #00ffff;
+    }
+
+    .contact-details a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    .contact-details a:hover {
+      color: #00ffff;
+    }
+	
+	footer {
+      background-color: rgba(0,0,0,0.8);
+      color: white;
+      text-align: center;
+      padding: 0.5em;
+      position: relative;
+      z-index: 0.5;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="overlay"></div>
+
+  <nav>
+    <a href="Home.html">Home</a>
+    <a href="Featured Gadgets.html">Featured Gadgets</a>
+    <a href="Contacts.html">Contacts</a>
+    <a href="About.html">About Us</a>
+  </nav>
+
+  <div class="contact-details">
+    <h2>Contact Information</h2>
+    <ul>
+      <li><i class="fas fa-map-marker-alt"></i> Address: SM MOA Northwing, J.W Diokno Blvd., Pasay City, Metro Manila, Philippines 1300</li>
+      <li><i class="fas fa-phone-alt"></i> Mobile No.: 09161662497</li>
+      <li><i class="fas fa-envelope"></i> Email: <a href="mailto:ATechSyncCustomerService@gmail.com">ATechSyncCustomerService@gmail.com</a></li>
+      <li><i class="fas fa-clock"></i> Operating Hours: 9am to 10pm, Monday to Sunday</li>
+    </ul>
+  </div>
+
+</body>
+
+<footer>
+	<p>&copy; 2025 A-Tech Sync. All rights reserved. | Designed for BSOA 2-2 GROUP 1</p>
+</footer>
+
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Featured Gadgets</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('file:///C:/Users/XHU730/Desktop/excersize%201/images/BG1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Calibri, Helvitica;
+      color: white;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 100px;
+      background-color: rgba(0,0,0.5,0.85);
+    }
+
+    .branding {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .logo {
+      height: 60px;
+      width: 300px;
+    }
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 10px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00BFFF;
+}
+
+.nav-message {
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  max-width: 800px;
+}
+    nav a:hover {
+      color: #00BFFF;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .brand-row {
+      display: flex;
+      align-items: flex-start;
+      margin-left: 40px; /* Left indent */
+      margin-bottom: 40px;
+    }
+
+    .brand-name {
+      width: 150px;
+      font-size: 22px;
+      font-weight: bold;
+      color: white;
+      margin-right: 20px;
+    }
+
+    .brand-images {
+      display: flex;
+      gap: 20px; /* Auto spacing between images */
+    }
+
+    .brand-images img {
+      max-width: 250px;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+    }
+
+	ul, ol {
+      list-style-position: inside;
+      padding: 0;
+    }
+	
+    nav a:hover {
+      color: #00BFFF;
+    }
+
+    .search-container {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      border-radius: 25px;
+      overflow: hidden;
+      height: 40px;
+    }
+
+    .search-container input[type="text"] {
+      border: none;
+      padding: 10px 15px;
+      font-size: 16px;
+      outline: none;
+      width: 250px;
+      border-radius: 25px 0 0 25px;
+    }
+
+    .search-container button {
+      background-color: transparent;
+      border: none;
+      padding: 0 15px;
+      font-size: 18px;
+      cursor: pointer;
+      color: #333;
+    }
+
+    .welcome-message p {
+      font-size: 1em;
+      font-style: italic;
+      margin: 0;
+    }
+
+    .main-section {
+      text-align: center;
+      padding: 0.5em;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 0.5em;
+    }
+
+    footer {
+      background-color: rgba(0,0,0,0.8);
+      color: white;
+      text-align: center;
+      padding: 0.5em;
+    }
+
+    @media (max-width: 768px) {
+      .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+
+      nav {
+        justify-content: center;
+        gap: 15px;
+        margin-top: 10px;
+      }
+
+      .search-container {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="branding">
+      <img src="file:///C:/Users/XHU730/Desktop/excersize%201/images/profile%20logo.png" class="logo" alt="A-Tech Sync Logo">
+    </div>
+
+    <nav>
+  <div class="nav-links">
+    <a href="Home.html">Home</a>
+    <a href="Featured Gadgets.html">Featured Gadgets</a>
+    <a href="Contacts.html">Contacts</a>
+    <a href="About.html">About Us</a>
+  </div>
+  <div class="nav-message">
+    Welcome to A-Tech Sync: Your gadget playground. Phones, tech, and fun synced to your lifestyle!
+  </div>
+</nav>
+
+    <form class="search-container" action="Featured Gadgets.html" method="GET">
+      <input type="text" name="search" placeholder="Search..." required>
+      <button type="submit">⌕</button>
+    </form>
+  </div>
+
+  <h2 style="text-align">Featured Brands / Premuim Models </h2>
+
+  <p> <div class="brand-row">
+	<div class="brand-name">APPLE</div>
+    <div class="brand-images">
+      <img src="file:///C:/Users/XHU730/Desktop/excersize%201/images/Iphone17ProMax.png" alt="IPhone 17 Pro Max">
+	  <img src="file:///C:/Users/XHU730/Desktop/excersize%201/images/Iphone17Pro.png" alt="IPhone 17 Pro">
+	  <img src="file:///C:/Users/XHU730/Desktop/excersize%201/images/Iphone17Air.png" alt="IPhone 17 Air">
+      <img src="file:///C:/Users/XHU730/Desktop/excersize%201/images/Iphone17.png" alt="IPhone 17">
+    </div>
+  </div> </p>
+
+  <p> <div class="brand-row">
+    <div class="brand-name">SAMSUNG</div>
+    <div class="brand-images">
+      <img src="file:///C:/Users/XHU730/Desktop/excersize%201/images/SamsungGalaxyS25Ultra.png" alt="Samsung Galaxy S25 Ultra">
+    </div>
+  </div> </p>
+
+  <p> <div class="brand-row">
+    <div class="brand-name">XIAOMI</div>
+    <div class="brand-images">
+      <img src="file:///C:/Users/XHU730/Desktop/excersize%201/images/Xiaomi15Ultra.png" alt="Xiaomi 15 Ultra">
+    </div>
+  </div> </p>
+
+  <p> <div class="brand-row">
+    <div class="brand-name">OPPO</div>
+    <div class="brand-images">
+      <img src="file:///C:/Users/XHU730/Desktop/excersize%201/images/OppoFindX9Pro.png" alt="Oppo Find X9 Pro">
+    </div>
+  </div> </p>
+
+  <p> <div class="brand-row">
+    <div class="brand-name">VIVO</div>
+    <div class="brand-images">
+      <img src="file:///C:/Users/XHU730/Desktop/excersize%201/images/VivoX300Pro.png" alt="Vivo X300 Pro">
+    </div>
+  </div> </p>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    const params = new URLSearchParams(window.location.search);
+    const query = params.get("search");
+    if (!query) return;
+
+    const input = query.toLowerCase();
+    const rows = document.querySelectorAll(".brand-row");
+
+    rows.forEach(row => {
+      const brand = row.querySelector(".brand-name").textContent.toLowerCase();
+      const images = row.querySelectorAll("img");
+      let matchFound = false;
+
+      images.forEach(img => {
+        const altText = img.alt.toLowerCase();
+        const matches = altText.includes(input) || brand.includes(input);
+        img.style.display = matches ? "block" : "none";
+        if (matches) matchFound = true;
+      });
+
+      row.style.display = matchFound ? "flex" : "none";
+    });
+  });
+</script>
+  
+</body>
+
+<footer>
+    <p>&copy; 2025 A-Tech Sync. All rights reserved. | Designed for BSOA 2-2 GROUP 1</p>
+  </footer>
+</html>
